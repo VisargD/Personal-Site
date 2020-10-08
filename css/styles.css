@@ -27,13 +27,13 @@ a {
   background-color: #072540;
   position: fixed;
   top: 1;
-  text-align: center;
+  text-align: left;
   padding: 12px 12px;
+  width: 100%;
 }
 .display-image {
   height: auto;
   max-width: 100%;
-  padding: 10px;
 }
 
 .about-container {
@@ -53,4 +53,32 @@ a {
   grid-template-columns: 25% 25% 25% 25%;
   justify-content: center;
   row-gap: 10px;
+}
+.blog-container {
+  background-color: #ffd584;
+  padding: 25px;
+  font-size: 22px;
+}
+.blog-1 {
+  display: grid;
+  grid-template-columns: 300px 400px;
+  justify-content: center;
+  margin: 15px;
+}
+
+@media (max-width: 700px) {
+  .blog-1 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+  }
+}
+img {
+  height: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+.blog-images {
+  width: 150px;
+  border-radius: 15px;
 }
