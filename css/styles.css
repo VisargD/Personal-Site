@@ -25,6 +25,7 @@ a {
   font-family: Lato;
   margin: 0 10px;
 }
+
 .topnav {
   background-color: #072540;
   position: fixed;
@@ -33,6 +34,14 @@ a {
   padding: 12px 12px;
   width: 100%;
 }
+
+.topnav :hover {
+  background-color: #ffd584;
+  color: black;
+  border-radius: 10px;
+  padding: 2px;
+}
+
 .display-image {
   height: auto;
   max-width: 100%;
@@ -44,23 +53,31 @@ a {
   font-size: 22px;
 }
 
+.social-media :hover {
+  transform: scale(1.05);
+
+}
+
 .skills-container {
   padding: 25px;
   background-color: #072540;
   color: white;
   font-size: 22px;
 }
+
 .skills {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   justify-content: center;
   row-gap: 10px;
 }
+
 .blog-container {
   background-color: #ffd584;
   padding: 25px;
   font-size: 22px;
 }
+
 .blog-1 {
   display: grid;
   grid-template-columns: 300px 400px;
@@ -75,24 +92,32 @@ a {
     justify-content: center;
   }
 }
+
 img {
   height: auto;
   max-width: 100%;
   padding: 10px;
 }
+
 .blog-images {
   width: 150px;
   border-radius: 15px;
 }
+
 .contact {
   padding: 25px;
   background-color: #072540;
   color: white;
   font-size: 22px;
 }
+
 .btn {
   background-color: #ffd584;
   padding: 10px;
   border-radius: 10px;
   color: black;
 }
+
+
+
+
