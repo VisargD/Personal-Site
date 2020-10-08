@@ -109,6 +109,7 @@ img {
   background-color: #072540;
   color: white;
   font-size: 22px;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -118,6 +119,15 @@ img {
   color: black;
 }
 
+.footer-container {
+  background-color: #072540;
+  color: white;
+  padding: 10px;
+}
+
+.footer {
+  margin: 0;
+}
 
 
 
