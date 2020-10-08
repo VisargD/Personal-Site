@@ -7,8 +7,10 @@
 
 body {
   margin: 0px;
+  padding: 0;
   text-align: center;
   font-family: Lato, sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -81,4 +83,16 @@ img {
 .blog-images {
   width: 150px;
   border-radius: 15px;
+}
+.contact {
+  padding: 25px;
+  background-color: #072540;
+  color: white;
+  font-size: 22px;
+}
+.btn {
+  background-color: #ffd584;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
 }
