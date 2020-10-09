@@ -1,16 +1,8 @@
-.top-container {
-  background-color: #072540;
-  padding-top: 100px;
-  color: white;
-  font-size: 22px;
-}
-
 body {
   margin: 0px;
   padding: 0;
   text-align: center;
   font-family: Lato, sans-serif;
-  overflow-x: hidden;
 }
 
 h1 {
@@ -24,6 +16,14 @@ a {
   color: white;
   font-family: Lato;
   margin: 0 10px;
+}
+
+.top-container {
+  background-color: #072540;
+  padding-top: 100px;
+  color: white;
+  font-size: 22px;
+  overflow-x: hidden;
 }
 
 .topnav {
@@ -45,6 +45,7 @@ a {
 .display-image {
   height: auto;
   max-width: 100%;
+  border: 0;
 }
 
 .about-container {
@@ -55,7 +56,6 @@ a {
 
 .social-media :hover {
   transform: scale(1.05);
-
 }
 
 .skills-container {
@@ -78,8 +78,17 @@ a {
   font-size: 22px;
 }
 
+.blog-link {
+  grid-area: left;
+}
+
+.blog-name {
+  grid-area: right;
+}
+
 .blog-1 {
   display: grid;
+  grid-template-areas: "left right";
   grid-template-columns: 300px 400px;
   justify-content: center;
   margin: 15px;
@@ -88,8 +97,19 @@ a {
 @media (max-width: 700px) {
   .blog-1 {
     display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "left"
+      "right";
+  }
+}
+
+@media (max-width: 450px) {
+  .skills-container {
+    font-size: 12px;
+  }
+  .topnav {
+    font-size: 12px;
   }
 }
 
@@ -128,6 +148,3 @@ img {
 .footer {
   margin: 0;
 }
-
-
-
