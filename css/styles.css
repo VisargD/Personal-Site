@@ -31,7 +31,7 @@ a {
   position: fixed;
   top: 1;
   text-align: left;
-  padding: 12px 12px;
+  padding: 12px 5px;
   width: 100%;
 }
 
@@ -110,6 +110,12 @@ a {
   }
   .topnav {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 340px) {
+  .topnav {
+    font-size: 8px;
   }
 }
 
